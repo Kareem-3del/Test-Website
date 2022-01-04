@@ -1,4 +1,5 @@
-var target_date = new Date('2022/1/4') // set the countdown date
+var target_date = new Date('2022/01/05')
+
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
