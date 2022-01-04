@@ -1,5 +1,5 @@
 var target_date = new Date('2022/01/05')
-
+ // set the countdown date
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
@@ -30,3 +30,4 @@ function getCountdown(){
 function pad(n) {
 	return (n < 10 ? '0' : '') + n;
 }
+
